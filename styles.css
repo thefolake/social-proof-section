@@ -10,18 +10,13 @@ body {
     font-family: 'Spartan', sans-serif;
     height: 100vh;
     justify-content: center;
-    /*max-width: 1110px;*/
 }
 
 .container {
     display: grid;
-    /*grid-template-columns: 50px 50px 50px 50px;*/
-    /*grid-template-rows: auto;*/
     grid-template-areas:
             "heading ratings"
             "review-section review-section";
-    /*grid-template-columns: repeat(2, 1fr);*/
-    /*grid-template-rows: repeat(2, 1fr);*/
     max-width: 1110px;
 
 }
@@ -144,7 +139,6 @@ h1 {
         display: flex;
         flex-direction: column;
         padding: 20px;
-        /*text-align: center;*/
     }
 
     h1 {
